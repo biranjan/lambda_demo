@@ -2,7 +2,7 @@ import json
 #import urllib
 from urllib.request import Request, urlopen
 
-api_key = "6f2a033cd8eeec74d282636adb7939ef"
+api_key = "my_api"
 location = "helsinki"
 def lambda_handler(event,context):
     # TODO implement
