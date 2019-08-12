@@ -46,4 +46,4 @@ wear a jacket or not:
 I mostly used web interface not create lambda and uses python 3.7 all the library are already included so there is no other dependencies. 
 
 ### Other Task
-Sadly having not used aws cloud formation I got stuck writing template for cloud formation and to keep my sanity I decided to stop and write documentation. Although there resource.template file here of what I manged. I believe here I can aso write a trigger rule which I did not manage
+Sadly having not used aws cloud formation I got stuck writing template for cloud formation and to keep my sanity I decided to stop and write documentation. Although the resource.template file is here of what I manged. I believe here I can aso write a trigger rule which I did not manage.
