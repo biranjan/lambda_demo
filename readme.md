@@ -37,13 +37,12 @@ def request weather(location:str,api_key:str)->str:
 ```
 
 ### Brief info on What function does:
-
 It simply make the api call and determines whether person should 
 wear a jacket or not:
-    Condition to wear a jacket is determined by average weather and if weather description. **Since I couldn't find a probability of rain so I just used any weather description other than *clear sky*. I guess this is could be a  problem**. As is it simply print to aws logs although it can be accessed via API gateway if need be.
+    Condition to wear a jacket is determined by average weather and if weather description. **Since I couldn't find a probability of rain so I just used any weather description other than *clear sky*. I guess this is/could be a  problem**. As is, it simply prints to aws logs although it can be accessed via API gateway if need be.
 
 ### Breifly about Aws Lambda creation steps
-I mostly used web interface not create lambda and uses python 3.7 all the library are already included so there is no other dependencies. 
+I mostly used web interface not create lambda and uses python 3.7. All the library are already included by default so there is no other dependencies. 
 
 ### Other Task
-Sadly having not used aws cloud formation I got stuck writing template for cloud formation and to keep my sanity I decided to stop and write documentation. Although the resource.template file is here of what I manged. I believe here I can aso write a trigger rule which I did not manage.
+Sadly having not used aws cloud formation I got stuck writing template for cloud formation and to keep my sanity I decided to stop and write documentation. Although the resource.template file is here of what I manged. I believe here I can aso write a trigger rule which I did not manage :(
